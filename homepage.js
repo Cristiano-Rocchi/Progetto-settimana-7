@@ -36,7 +36,7 @@ const fetchanimals = () => {
 
         const cardTitle = document.createElement("h5");
         cardTitle.classList.add("card-title");
-        cardTitle.textContent = element.title;
+        cardTitle.textContent = element.name;
 
         const cardPrice = document.createElement("p");
         cardPrice.classList.add("card-text");
