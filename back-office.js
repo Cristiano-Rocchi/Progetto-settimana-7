@@ -41,3 +41,15 @@ document.getElementById("form").addEventListener("submit", function (event) {
       console.error("Error:", error);
     });
 });
+/* const reset = document.getElementById("deleteButton"); */
+
+/* reset.addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const _id = (document.getElementById("_id").value = "");
+  const name = (document.getElementById("name").value = "");
+  const description = (document.getElementById("description").value = "");
+  const price = (document.getElementById("price").value = "");
+  const imageUrl = (document.getElementById("imageUrl").value = "");
+  const brand = (document.getElementById("brand").value = "");
+}); */
