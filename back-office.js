@@ -29,7 +29,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const price = priceInput.value;
 
     const newAnimal = {
-      name: name,
+      name: name.toUpperCase(),
       description: description,
       brand: brand,
       imageUrl: imageUrl,
